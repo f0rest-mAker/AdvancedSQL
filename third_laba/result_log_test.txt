@@ -1,0 +1,16 @@
+C:\Program Files\PostgreSQL\15\bin>pgbench -U postgres -T 300 -c 1 -f ...\log_test.sql AdvancedSQL
+Password:
+pgbench (15.3)
+starting vacuum...end.
+transaction type: ...\log_test.sql
+scaling factor: 1
+query mode: simple
+number of clients: 1
+number of threads: 1
+maximum number of tries: 1
+duration: 300 s
+number of transactions actually processed: 214
+number of failed transactions: 0 (0.000%)
+latency average = 1406.653 ms
+initial connection time = 171.090 ms
+tps = 0.710907 (without initial connection time)
