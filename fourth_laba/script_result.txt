@@ -2,7 +2,7 @@ C:\Program Files\PostgreSQL\15\bin>pgbench -U postgres -c 10 -t 100000 -f ...\up
 Password:
 pgbench (15.3)
 starting vacuum...end.
-transaction type: C:\Users\Ibrai\Desktop\PostgreSQL\AdvancedSQL\fourth_laba\update_script.sql
+transaction type: ...\fourth_laba\update_script.sql
 scaling factor: 1
 query mode: simple
 number of clients: 10
