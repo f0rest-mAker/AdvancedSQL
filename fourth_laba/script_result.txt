@@ -1,0 +1,16 @@
+C:\Program Files\PostgreSQL\15\bin>pgbench -U postgres -c 10 -t 100000 -f ...\update_script.sql AdvancedSQL
+Password:
+pgbench (15.3)
+starting vacuum...end.
+transaction type: C:\Users\Ibrai\Desktop\PostgreSQL\AdvancedSQL\fourth_laba\update_script.sql
+scaling factor: 1
+query mode: simple
+number of clients: 10
+number of threads: 1
+maximum number of tries: 1
+number of transactions per client: 100000
+number of transactions actually processed: 1000000/1000000
+number of failed transactions: 0 (0.000%)
+latency average = 18.037 ms
+initial connection time = 1105.472 ms
+tps = 554.413387 (without initial connection time)
